@@ -890,7 +890,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-left: 0;
 }
 .fh5co-portfolio .portfolio-text .stuff li:last-child {
-  float: right;
+  margin-left: 0;
 }
 .fh5co-portfolio .portfolio-text .stuff li i {
   font-size: 14px;

@@ -840,13 +840,13 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   float: left;
   margin-bottom: 40px;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
 }
 .fh5co-portfolio > a {
   width: 100%;
   float: left;
-  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
-  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
 }
 .fh5co-portfolio > a:hover {
   webkit-box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.13);
@@ -856,11 +856,12 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-portfolio .portfolio-entry {
   width: 100%;
   float: left;
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 300px;
+  height: 270px;
+  vertical-align: middle;
 }
 @media screen and (max-width: 768px) {
   .fh5co-portfolio .portfolio-entry {
@@ -893,6 +894,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-portfolio .portfolio-text .stuff li i {
   font-size: 14px;
   padding-right: 5px;
+  vertical-align: center;
 }
 
 .fh5co-team {

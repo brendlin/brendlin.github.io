@@ -13,8 +13,8 @@
 body {
   font-family: "Inconsolata", Arial, sans-serif;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 1.7;
+  font-size: 17px;
+  line-height: 1.5;
   color: #333333;
   background: #fff;
 }
@@ -806,7 +806,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
-  padding-top: 20px;
+  padding-top: 5px;
 }
 .fh5co-blog .blog-text .stuff li {
   list-style: none;
@@ -872,13 +872,13 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-portfolio .portfolio-text {
   width: 100%;
   float: left;
-  padding: 20px;
+  padding: 15px;
 }
 .fh5co-portfolio .portfolio-text .stuff {
   margin: 0;
   padding: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
-  padding-top: 20px;
+  padding-top: 5px;
 }
 .fh5co-portfolio .portfolio-text .stuff li {
   list-style: none;

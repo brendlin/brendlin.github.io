@@ -108,6 +108,9 @@ h1, h2, h3, h4, h5, h6, figure {
   .fh5co-nav .menu-1 {
     display: none;
   }
+  .fh5co-nav #fh5co-logo {
+    font-size: 22px;
+  }
 }
 .fh5co-nav ul {
   padding: 0;
@@ -1048,6 +1051,7 @@ input[type="text"] {
 }
 
 #fh5co-offcanvas {
+  font-size: 24px;
   position: absolute;
   z-index: 1901;
   width: 270px;

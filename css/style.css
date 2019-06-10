@@ -979,10 +979,17 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-footer .fh5co-footer-links li a {
   color: rgba(0, 0, 0, 0.5);
-  text-decoration: none;
+}
+/* The current one is underlined */
+#fh5co-footer .fh5co-footer-links li.active a {
+  text-decoration: underline #F18F1F;
 }
 #fh5co-footer .fh5co-footer-links li a:hover {
   text-decoration: underline;
+}
+/* When you hover on the current one, do not change its color */
+#fh5co-footer .fh5co-footer-links li.active a:hover {
+  text-decoration: underline #F18F1F;
 }
 #fh5co-footer .fh5co-widget {
   margin-bottom: 30px;

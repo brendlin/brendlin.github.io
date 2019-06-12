@@ -182,13 +182,13 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 2px 0;
   display: block;
   color: #999999;
-  line-height: 1.2;
+  line-height: 1.4;
   text-transform: none;
-  font-size: 13px;
+  font-size: 17px;
   letter-spacing: 0;
 }
 .fh5co-nav ul li.has-dropdown .dropdown li a:hover {
-  color: #fff;
+  color: #F18F1F;
 }
 .fh5co-nav ul li.has-dropdown:hover a, .fh5co-nav ul li.has-dropdown:focus a {
   color: #000;
